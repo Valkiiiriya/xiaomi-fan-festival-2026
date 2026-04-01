@@ -13,7 +13,7 @@
 
 .nbrb-icon {
   font-family: "nbrb" !important;
-  speak: none;
+  speak-as: none;
   font-style: normal;
   font-size: 24px;
   font-weight: 600;
