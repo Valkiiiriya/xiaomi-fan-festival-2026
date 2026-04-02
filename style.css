@@ -1,41 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-@font-face {
-  font-family: "nbrb";
-  src:
-    url("/nbrb_font/nbrb.woff2") format("woff2"),
-    /* Укажите путь к файлу nbrb.woff2 */ url("/nbrb_font/nbrb.ttf")
-      format("truetype"),
-    /* Укажите путь к файлу nbrb.ttf */ url("/nbrb_font/nbrb.woff")
-      format("woff"); /* Укажите путь к файлу nbrb.woff */
-  unicode-range: U+E901, U+42, U+59, U+4E;
-}
-
-.nbrb-icon {
-  font-family: "nbrb" !important;
-  speak-as: none;
-  font-style: normal;
-  font-size: 24px;
-  font-weight: 600;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  letter-spacing: normal;
-  -webkit-font-feature-settings: "liga";
-  -moz-font-feature-settings: "liga=1";
-  -moz-font-feature-settings: "liga";
-  -ms-font-feature-settings: "liga" 1;
-  font-feature-settings: "liga";
-  -webkit-font-variant-ligatures: discretionary-ligatures;
-  font-variant-ligatures: discretionary-ligatures;
-}
-
-.nbrb-icon-byn:before {
-  content: "\e901"; /* Юникод для знака */
-}
-
 body {
   background-image:
     url("https://mi.by/upload/iblock/317/ze2a69sez3rpxol7mtish4nrl77eg520.png"),
